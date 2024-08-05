@@ -88,7 +88,7 @@ class DBStorage:
 
 
     def count(self, cls=None):
-        """Count the total number of objects in storage"""
+        """Count the total number of objects in storage [classes]"""
         total = 0
         if type(cls) == str and cls in classes:
             cls = classes[cls]
